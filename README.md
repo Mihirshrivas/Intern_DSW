@@ -1,5 +1,5 @@
-steps tO perform the task is :
-Step 1:Setting Up Your Environment:
+steps to perform the task is :
+Step 1: Setting Up Your Environment:
 # Create a virtual environment
 python3 -m venv myenv
 
@@ -54,5 +54,3 @@ Where <model_name> is the model algorithm you are using. Create at least two dif
 models and corresponding model files, one of them must be an artificial neural network (ann)
 model.
 
-
-- 
