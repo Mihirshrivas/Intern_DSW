@@ -1,4 +1,4 @@
-steps tp perform the task is :
+steps tO perform the task is :
 Step 1:Setting Up Your Environment:
 # Create a virtual environment
 python3 -m venv myenv
@@ -30,23 +30,18 @@ Step 5 : Model Selection
 A fashion e-commerce company is planning its collections for the upcoming year. Therefore the company put together many potential products as candidates and now would like to estimate which products would be successful (top) or not (flop). To do so, you are provided with data on the past years’ top and flop products. This will allow us to create a small machine-learning application.
 
 ### Data Overview (shared in separate files)
-We have two data sets:
-▪ Historic data: Products of the past two years and their attributes (including a label that categories
-the item stop or flop); file: historic.csv (8000 products)
-▪ Prediction data: Potential products of the upcoming year and their attributes (but no label about the
-success); file: prediction_input.csv (2000 product candidates)
+Historic data: Contains attributes of products from the past two years, including the success indicator label. File: historic.csv (8000 products)
+Prediction data: Contains attributes of potential products for the upcoming year without the success label. File: prediction_input.csv (2000 product candidates)
+
 
 
 ### Columns:
-▪ item_no: Internal identifier for a past product or a product candidate for the
-future.
-▪ category: Category of the product.
-▪ main_promotion: Main promotion that would be/was used to promote the product.
-▪ color: The main color of the product.
-▪ stars: Stars of reviews from a comparable product of a competitor (from 0= very negative reviews to
-5 = very positive reviews).
-▪ success_indicator: Indicatorwhether a product wassuccessful(top) or not(flop) in the past. Only given
-for the historic data
+Item_no: Internal identifier for past or future products.
+category: Category of the product.
+main_promotion: Main promotion used or planned for the product.
+color: Main color of the product.
+stars: Review rating from a comparable product (0 to 5 stars).
+success_indicator: Indicator of past success (top) or failure (flop). Only available for historic data
 
 ## Technical Requirements
 ▪ EDA:
